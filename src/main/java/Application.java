@@ -19,5 +19,10 @@ public class Application {
         String val2 = "hello";
         String output2 = parrot.copy(val2);
         System.out.println(output2);
+
+        System.out.println("Here's what Lab.copy returns when provided the value \"polly\"");
+        String val3 = "polly";
+        String output3 = parrot.copy(val3);
+        System.out.println(output3);
     }
 }
